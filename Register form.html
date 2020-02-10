@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register form</title>
+</head>
+<body>
+  <form action="thankyou.html">
+    <table border="1" align="center">
+      <tr>
+        <td>
+          <label for="name">
+            Name
+          </label>
+        </td>
+        <td>
+        <input type="text"
+                id="name"
+                placeholder="Name Surname Middlename"
+                size="50">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">
+            Email
+          </label>
+        </td>
+        <td>
+          <input type="email"
+          id="email"
+          placeholder="xxxxx@xxx.xx"
+          size="50">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="tel">
+            Telefone number
+          </label>
+        </td>
+        <td>
+          +
+          <input type="tel"
+          readonly
+          id="tel"
+          value=" 373"
+          size="3">
+          /
+          <input type="tel"
+          id="tel"
+          placeholder=" 00000000000"
+          size="10">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="date">
+            Date of birth
+          </label>
+        </td>
+        <td>
+          <input type="date"
+          id="date"
+          size="50">
+        </td>
+      </tr>
+      <tr >
+        <td colspan="2">
+          <label>
+            Tell about you
+          </br>
+          </br>
+          <textarea name="name" rows="12" cols="80" placeholder="maximum 300 characters" maxlength="300"></textarea>
+          </label>
+        </td>
+       </tr>
+       <tr>
+         <td>
+           <label for="Country">
+             Country
+           </label>
+         </td>
+         <td>
+           <select id="Country">
+             <option>China</option>
+             <option selected>Rusia</option>
+             <option>Ucraine</option>
+             <option>Romania</option>
+             <option>Germany</option>
+             <option>Franta</option>
+             <option>Holland</option>
+          </select>
+         </td>
+         <tr>
+           <td>
+             <label for="card">
+               Card number
+             </label>
+           </td>
+           <td>
+             <input type="card"
+             size="4">
+             <input type="password"
+             size="4">
+             <input type="password"
+              size="4">
+             <input type="card"
+             size="4">
+           </td>
+         </tr>
+         <tr >
+           <td colspan="2">
+             <label>
+               <input type=checkbox required>
+
+              Я согласен с <a href="Policy.html" target="_blank">уcловиями </a>обработки персональных данных
+             </label>
+           </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <button>Зарегистрироваться</button>
+            </td>
+          </tr>
+    </table>
+  </form>
+</body>
+</html>
